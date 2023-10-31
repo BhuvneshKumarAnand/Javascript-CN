@@ -24,3 +24,23 @@ arr = [2, 3, 4, 5, 6];
 arr.splice(1, 0, 10); // add 10 at index-1
 
 print(arr);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// example-1
+
+var fruits = ['Apple', 'Orange', 'Kiwi', 'Strawberry'];
+
+fruits.splice(4, 1, 'Banana');
+
+console.log(fruits); // ["Apple", "Orange", "Kiwi", "Strawberry", "Banana"]
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// example-2
+
+var fruits = ['Apple', 'Orange', 'Kiwi', 'Strawberry'];
+
+fruits.splice(1, 0, 'Banana');
+
+console.log(fruits); // ["Apple", "Banana", "Orange", "Kiwi", "Strawberry"]
