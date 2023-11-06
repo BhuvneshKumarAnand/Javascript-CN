@@ -10,3 +10,26 @@
     background-color: red;
     border: 2px solid black;
 }
+
+
+/* ------------------------------------------------------------- */
+
+
+/* propagation of Events */
+
+#outerDiv {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+#innerDiv {
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    border: 2px solid black;
+}
