@@ -23,3 +23,11 @@ Syntax:
 /*In this example, localVar is scoped only within the IIFE, and it doesn't interfere with variables in the global scope. It's a useful technique for encapsulating code and avoiding variable name clashes.
 
 IIFE is commonly used in scenarios where you want to create a private scope for variables, especially when dealing with multiple scripts to avoid accidental global variable conflicts.*/
+
+// problem
+
+
+var a = (function() {
+    return typeof arguments;
+})();
+console.log(a);
