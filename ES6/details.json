@@ -1,0 +1,24 @@
+{
+    "person1": {
+        "firstName": "Bhuvnesh",
+        "lastName": "Anand",
+        "age": "23",
+        "address": {
+            "streetAddress": "2/9 Jagjeevan Nagar",
+            "city": "Delhi",
+            "postalCode": "110093"
+        },
+        "phoneNumber": ["9871651864", "9871223588"]
+    },
+    "person2": {
+        "firstName": "Bharat",
+        "lastName": "Anand",
+        "age": "24",
+        "address": {
+            "streetAddress": "2/9 Shahdara",
+            "city": "Delhi",
+            "postalCode": "110032"
+        },
+        "phoneNumber": ["436576435874", "5347653726"]
+    }
+}
